@@ -2,6 +2,6 @@
 class moom {
   package { 'Moom':
     provider => 'appdmg',
-    source   => 'http://manytricks.com/download/moom',
+    source   => 'https://www.dropbox.com/s/0vepd5djimglbdb/moom310.dmg',
   }
 }
