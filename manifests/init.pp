@@ -1,4 +1,7 @@
-# This is a placeholder class.
-class template {
-  anchor { 'Hello_World': }
+# Install Moom.
+class moom {
+  package { 'Moom':
+    provider => 'appdmg',
+    source   => 'http://manytricks.com/download/moom',
+  }
 }
