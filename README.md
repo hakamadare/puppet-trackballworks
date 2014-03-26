@@ -20,3 +20,7 @@ Set `GITHUB_API_TOKEN` in your shell with a [Github oAuth Token](https://help.gi
 
 Then write some code. Run `script/cibuild` to test it. Check the `script`
 directory for other useful tools.
+
+## To Do
+
+* Figure out a better way to pull the DMG straight from Many Tricks' site
