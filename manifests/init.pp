@@ -1,7 +1,7 @@
 # Install Moom.
-class moom {
-  package { 'Moom':
-    provider => 'appdmg',
-    source   => 'https://www.dropbox.com/s/0vepd5djimglbdb/moom310.dmg',
+class lingon {
+  package { 'Lingon X':
+    provider => 'compressed_app',
+    source   => 'http://www.peterborgapps.com/downloads/LingonX.zip',
   }
 }

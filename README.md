@@ -1,13 +1,13 @@
-# Moom for Boxen
+# Lingon for Boxen
 
-[![Build Status](https://travis-ci.org/hakamadare/puppet-moom.png?branch=master)](https://travis-ci.org/hakamadare/puppet-moom)
+[![Build Status](https://travis-ci.org/hakamadare/puppet-lingon.png?branch=master)](https://travis-ci.org/hakamadare/puppet-lingon)
 
-This Boxen module installs [Moom](http://manytricks.com/moom/).
+This Boxen module installs [Lingon](http://www.peterborgapps.com/lingon/).
 
 ## Usage
 
 ```puppet
-class { 'moom': }
+class { 'lingon': }
 ```
 
 ## Required Puppet Modules
@@ -23,4 +23,5 @@ directory for other useful tools.
 
 ## To Do
 
-* Figure out a better way to pull the DMG straight from Many Tricks' site
+* Automatic license provisioning
+* Support for deploying Lingon 3 from App Store
