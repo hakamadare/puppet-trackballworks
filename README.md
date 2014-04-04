@@ -1,13 +1,13 @@
-# Lingon for Boxen
+# Kensington TrackballWorks for Boxen
 
-[![Build Status](https://travis-ci.org/hakamadare/puppet-lingon.png?branch=master)](https://travis-ci.org/hakamadare/puppet-lingon)
+[![Build Status](https://travis-ci.org/hakamadare/puppet-trackballworks.png?branch=master)](https://travis-ci.org/hakamadare/puppet-trackballworks)
 
-This Boxen module installs [Lingon](http://www.peterborgapps.com/lingon/).
+This Boxen module installs [Kensington TrackballWorks](http://www.kensington.com/kensington/us/us/s/1517/trackballworks%E2%84%A2-software-download.aspx), the driver and configuration utility for Kensington trackballs.
 
 ## Usage
 
 ```puppet
-class { 'lingon': }
+class { 'trackballworks': }
 ```
 
 ## Required Puppet Modules
@@ -20,8 +20,3 @@ Set `GITHUB_API_TOKEN` in your shell with a [Github oAuth Token](https://help.gi
 
 Then write some code. Run `script/cibuild` to test it. Check the `script`
 directory for other useful tools.
-
-## To Do
-
-* Automatic license provisioning
-* Support for deploying Lingon 3 from App Store
