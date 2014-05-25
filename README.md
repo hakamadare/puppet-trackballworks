@@ -1,13 +1,13 @@
 # Kensington TrackballWorks for Boxen
 
-[![Build Status](https://travis-ci.org/hakamadare/puppet-trackballworks.png?branch=master)](https://travis-ci.org/hakamadare/puppet-trackballworks)
+[![Build Status](https://travis-ci.org/boxen/puppet-trackballworks.svg?)](https://travis-ci.org/boxen/puppet-trackballworks)
 
 This Boxen module installs [Kensington TrackballWorks](http://www.kensington.com/kensington/us/us/s/1517/trackballworks%E2%84%A2-software-download.aspx), the driver and configuration utility for Kensington trackballs.
 
 ## Usage
 
 ```puppet
-class { 'trackballworks': }
+include trackballworks
 ```
 
 ## Required Puppet Modules
